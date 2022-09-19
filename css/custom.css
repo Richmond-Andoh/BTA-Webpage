@@ -1,7 +1,69 @@
 body{
     font-family: 'Playfair Display', serif;
 }
+.session{
+    background-color: gainsboro;
+}
+.missionSection {
+    background-color: gainsboro;
+    height: 80vh;
+    margin-top: 10%;
+}
+
+.missionDiv {
+    display: flex;
+    flex-direction: row;
+}
+
+.mission {
+    background-color: white;
+    position: relative;
+    top: 20%;
+    left: 20%;
+}
 
 
+@media (max-width: 750px){
+    .missionDiv{
+        display: flex;
+        flex-direction: column;
+        position: relative;
+    }
+    
+    .mission {
+       position: absolute;
+       top: 50%;
+       right: 10%;
+    }
+}
+
+.learnSection {
+    height: 90vh;
+}
+
+.learnDiv {
+    display: flex;
+    flex-direction: row;
+}
+
+.learn {
+    background-color: white;
+    position: relative;
+    top: 20%;
+    right: 30%;
+}
 
 
+@media (max-width: 750px){
+    .learnDiv{
+        display: flex;
+        flex-direction: column;
+        position: relative;
+       
+    }
+    
+    .learn {
+       position: absolute;
+       top: 50%;
+    }
+}
