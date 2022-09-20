@@ -7,7 +7,7 @@ body{
 .missionSection {
     background-color: gainsboro;
     height: 80vh;
-    margin-top: 10%;
+    
 }
 
 .missionDiv {
@@ -38,7 +38,7 @@ body{
 }
 
 .learnSection {
-    height: 90vh;
+    height: 80vh;
 }
 
 .learnDiv {
@@ -65,5 +65,6 @@ body{
     .learn {
        position: absolute;
        top: 50%;
+       right: 10%;
     }
 }

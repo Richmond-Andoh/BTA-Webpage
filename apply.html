@@ -1,0 +1,713 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+
+    <link rel="stylesheet" href="	https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css">
+      
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css"> 
+
+    <title>apply</title>
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  </head>
+
+  <body>
+    <header>
+        <nav class="navbar navbar-expand-lg bg-primary">
+            <div class="container-fluid">
+              <a class="navbar-brand fs-3 text-white" href="#">
+                <!-- <img src="images/logo.png" alt="" class="img-fluid" style="width: 20%; height: 10%"> -->
+              </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse float-end" id="navbarSupportedContent">
+                <ul class="navbar-nav mb-lg-0 mb-2 ms-auto">
+                  <li class="nav-item m-2">
+                    <a class="nav-link text-white fs-5" href="#">Apply</a>
+                  </li>
+                  <li class="nav-item m-2">
+                    <a class="nav-link text-white fs-5" href="#">Learn</a>
+                  </li>
+                  <li class="nav-item m-2">
+                    <a class="nav-link text-white fs-5" href="#">Hire</a>
+                  </li>
+                  <li class="nav-item m-2">
+                    <a class="nav-link text-white fs-5" href="#">Mentor</a>
+                  </li>  
+                  <li class="nav-item m-2">
+                    <a class="nav-link text-white fs-5" href="#">Contact</a>
+                  </li>
+                  <li class="nav-item m-2">
+                    <a class="nav-link text-white fs-5" href="#">
+                        <i class="bi bi-facebook"></i>
+                    </a>
+                  </li>
+                  <li class="nav-item m-2">
+                    <a class="nav-link text-white fs-5" href="#">
+                        <i class="bi bi-twitter"></i>
+                    </a>
+                  </li>
+                  <li class="nav-item m-2">
+                    <a class="nav-link text-white fs-5" href="#">
+                        <i class="bi bi-linkedin"></i>
+                    </a>
+                  </li>
+                  <li class="nav-item m-1">
+                    <a class="nav-link" href="#">
+                        <button class="btn btn-lg btn-light text-red" type="submit">Apply Now</button>
+                    </a>
+                </ul>
+              
+              </div>
+            </div>
+        </nav>
+    </header>
+    
+    <div class="position-relative">
+        <img src="images/img7.jpg" alt="" class="img-fluid" style="width: 100%; height: 350px;">
+         <div class="container position-absolute top-50">
+            <h1 class="text-white text-center">Brightfield Tech Academy <br> Application</h1>
+         </div>
+    </div>
+
+ <!-- students application -->
+
+   <div class="container mt-5">
+            <h2>Brightfield Tech Academy Student Application</h2>
+            <p class="text-start">
+                Please use this form to sign-up for Brightfield Tech Academy. 
+                This will add you to the waiting list to enter the program.
+                At this time we cannot provide estimates on when your class begins, 
+                but we will contact you at least 45 days before it is scheduled 
+                in order to begin the pre-work.
+            </p>
+            <p class="text-start">
+                The information in this form will be used by KentuckianaWorks, 
+                the Workforce Development Board of the Kentuckiana region, 
+                to determine eligibility for the Code Louisville program and for 
+                anonymous reporting purposes on workforce and training programs in 
+                the Greater Louisville region.
+            </p>
+            <p class="text-start">
+                IMPORTANT NOTE: If you have already applied before using this form, 
+                do NOT apply a second time. Doing so will overwrite your first application, 
+                moving you further back in line. 
+                Please contact apply@codelouisville.org if you have questions about your application.
+            </p>
+
+            <!-- application form -->
+
+        <div class="container">
+            <p>* Required</p>
+
+            <form class="">
+                <div class="container">
+                  <label for="inputEmail4" class="form-label">Email</label>
+                  <input type="email" class="form-control" id="inputEmail4">
+                </div>
+
+                <div class="container">
+                  <label for="inputFirstName" class="form-label">First Name</label>
+                  <input type="text" class="form-control" id="inputFirstName">
+                </div>
+
+                <div class="container">
+                  <label for="inputLastName" class="form-label">Last Name</label>
+                  <input type="text" class="form-control" id="inputLastName">
+                </div>
+
+                <div class="container">
+                  <label for="inputTelephone" class="form-label">Telephone</label>
+                  <input type="tel" class="form-control" id="inputTelephone" placeholder="Apartment, studio, or floor">
+                </div>
+
+                <div class="container">
+                  <label for="inputDate" class="form-label">Birth Date</label>
+                  <input type="date" class="form-control" id="inputDate">
+                </div>
+
+                <div class="container">
+                    <label for="inputCity" class="form-label">City</label>
+                    <input type="text" class="form-control" id="inputCity">
+                </div>
+
+                <div class="container">
+                    <label for="inputStreetAddress" class="form-label">Street Address</label>
+                    <input type="text" class="form-control" id="inputStreetAddress">
+                </div>
+
+                <div class="container">
+                  <label for="inputState" class="form-label">State</label>
+                  <select id="inputState" class="form-select">
+                    <option selected>Choose...</option>
+                    <option>...</option>
+                  </select>
+                </div>
+
+                <div class="container">
+                  <label for="inputZip" class="form-label">Zip Code</label>
+                  <input type="text" class="form-control" id="inputZip" placeholder="####">
+                </div>
+
+
+                <!-- Gender -->
+                <div class="form-check mt-5">
+                    <p>Gender</p>
+                    <p>
+                        <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option1" checked>
+                        <label class="form-check-label" for="gridRadios1">
+                          Male
+                        </label>
+                    </p>
+
+                    <p>
+                        <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option1" checked>
+                        <label class="form-check-label" for="gridRadios1">
+                          Female
+                        </label>
+                    </p>
+
+                    <p>
+                        <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option1" checked>
+                        <label class="form-check-label" for="gridRadios1">
+                          Non Binary
+                        </label>
+                    </p>
+
+                    <p>
+                        <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option1" checked>
+                        <label class="form-check-label" for="gridRadios1">
+                          Transgender
+                        </label>
+                    </p>
+
+                    <p>
+                        <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option1" checked>
+                        <label class="form-check-label" for="gridRadios1">
+                          Gender Nonconforming
+                        </label>
+                    </p>
+
+                    <p>
+                        <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option1" checked>
+                        <label class="form-check-label" for="gridRadios1">
+                          Prefer not to say
+                        </label>
+                    </p>
+                </div>
+
+                <!-- Ethnicity -->
+                <div class="form-check text-start mt-5">
+                    <p>Ethnicity</p>
+                    <p>
+                        <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option1" checked>
+                        <label class="form-check-label" for="gridRadios1">
+                          Hispanic or Latino
+                        </label>
+                    </p>
+
+                    <p>
+                        <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option1" checked>
+                        <label class="form-check-label" for="gridRadios1">
+                          Non Hispanic or Latino
+                        </label>
+                    </p>
+
+                    <p>
+                        <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option1" checked>
+                        <label class="form-check-label" for="gridRadios1">
+                          Prefer not to say
+                        </label>
+                    </p>
+                   
+                </div>
+
+
+                 <!-- Race -->
+                 <div class="form-check text-start mt-5">
+                    <p>Race</p>
+                    <p>
+                        <input class="form-check-input" type="checkbox" name="gridRadios" id="gridRadios1" value="option1" checked>
+                        <label class="form-check-label" for="gridRadios1">
+                            American Indian or Alaskan Native
+                        </label>
+                    </p>
+
+                    <p>
+                        <input class="form-check-input" type="checkbox" name="gridRadios" id="gridRadios1" value="option1" checked>
+                        <label class="form-check-label" for="gridRadios1">
+                          Asian
+                        </label>
+                    </p>
+
+                    <p>
+                        <input class="form-check-input" type="checkbox" name="gridRadios" id="gridRadios1" value="option1" checked>
+                        <label class="form-check-label" for="gridRadios1">
+                          Black or African American
+                        </label>
+                    </p>
+
+                    <p>
+                        <input class="form-check-input" type="checkbox" name="gridRadios" id="gridRadios1" value="option1" checked>
+                        <label class="form-check-label" for="gridRadios1">
+                            Native Hawaiian or Other Pacific Islander
+                        </label>
+                    </p>
+
+                    <p>
+                        <input class="form-check-input" type="checkbox" name="gridRadios" id="gridRadios1" value="option1" checked>
+                        <label class="form-check-label" for="gridRadios1">
+                          White
+                        </label>
+                    </p>
+
+                    <p>
+                        <input class="form-check-input" type="checkbox" name="gridRadios" id="gridRadios1" value="option1" checked>
+                        <label class="form-check-label" for="gridRadios1">
+                          Other
+                        </label>
+                    </p>
+
+                    <p>
+                        <input class="form-check-input" type="checkbox" name="gridRadios" id="gridRadios1" value="option1" checked>
+                        <label class="form-check-label" for="gridRadios1">
+                          Prefer not to say
+                        </label>
+                    </p>
+                </div>
+
+                
+                <div class="container mt-5">
+                    <p>
+                        Are you currently employed in the technology industry or interested
+                         in gaining employment in a technology-related field?
+                    </p>
+                    <select id="inputState" class="form-select">
+                      <option selected>Please Select...</option>
+                      <option>Please Select</option>
+                      <option>I'm Seeking to enter tech industry</option>
+                      <option>I'm exploring my options</option>
+                      <option>I'm employed in the tech industry</option>
+                      <option>I'm not seeking a job in the tech industry</option>
+                    </select>
+                </div>
+
+                <div class="container mt-5">
+                    <p>
+                      Are you fluent in English?
+                    </p>
+                    <select id="inputState" class="form-select">
+                      <option selected>Please Select...</option>
+                      <option>Please Select</option>
+                      <option>Yes</option>
+                      <option>No</option>
+                    </select>
+                </div>
+
+                <div class="container mt-5">
+                    <p>
+                      Do you have a disability?
+                    </p>
+                    <select id="inputState" class="form-select">
+                      <option selected>Please Select...</option>
+                      <option>Please Select</option>
+                      <option>Yes</option>
+                      <option>No</option>
+                    </select>
+                </div>
+
+                <div class="container mt-5">
+                    <p>
+                      What is your employment status?
+                    </p>
+                    <select id="inputState" class="form-select">
+                      <option selected>Please Select...</option>
+                      <option>Please Select</option>
+                      <option>Employed full-time</option>
+                      <option>Employed part-time</option>
+                      <option>Unemployed, actively seeking work</option>
+                      <option>Unemployed, not seeking work</option>
+                      <option>Self employed</option>
+                      <option>Freelance/Contractor</option>
+                    </select>
+                </div>
+
+                <div class="container mt-5">
+                    <p>
+                     Have you ever been convicted of a felony?
+                    </p>
+                    <select id="inputState" class="form-select">
+                      <option selected>Please Select...</option>
+                      <option>Please Select</option>
+                      <option>Yes</option>
+                      <option>No</option>
+                    </select>
+                    <i>making yes will not disqualify you from the program</i>
+                </div>
+
+                <div class="container mt-5">
+                    <p>
+                        Are you currently experiencing a housing crisis
+                      (e.g. homeless or living in a temporary shelter/residence)?
+                    </p>
+                    <select id="inputState" class="form-select">
+                      <option selected>Please Select...</option>
+                      <option>Please Select</option>
+                      <option>Yes</option>
+                      <option>No</option>
+                    </select>
+                </div>
+
+
+                <!-- fieldset -->
+                <div class="container mt-5">
+                    <fieldset>
+                        <legend>
+                            Please check any of the following services
+                             that apply to you as of today's date:
+                        </legend>
+
+                        <div class="row">
+                            <div class="col">
+                                <p>
+                                    <label class="form-check-label" for="gridRadios1">
+                                        SNAP
+                                    </label>
+                                    <input class="form-check-input" type="checkbox" name="gridRadios" id="gridRadios1" value="option1" checked>  
+                                </p>
+                            </div>
+
+                            <div class="col">
+                                <p>
+                                    <label class="form-check-label" for="gridRadios1">
+                                        TANF
+                                    </label>
+                                    <input class="form-check-input" type="checkbox" name="gridRadios" id="gridRadios1" value="option1" checked>  
+                                </p>
+                            </div>
+
+                            <div class="col">
+                                <p>
+                                    <label class="form-check-label" for="gridRadios1">
+                                        Medicaid
+                                    </label>
+                                    <input class="form-check-input" type="checkbox" name="gridRadios" id="gridRadios1" value="option1" checked>  
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col">
+                                <p>
+                                    <label class="form-check-label" for="gridRadios1">
+                                        Unemployed Insurance
+                                    </label>
+                                    <input class="form-check-input" type="checkbox" name="gridRadios" id="gridRadios1" value="option1" checked>  
+                                </p>
+                            </div>
+                            
+                            <div class="col">
+                                <p>
+                                    <label class="form-check-label" for="gridRadios1">
+                                       SSI
+                                    </label>
+                                    <input class="form-check-input" type="checkbox" name="gridRadios" id="gridRadios1" value="option1" checked>  
+                                </p>
+                            </div>
+                        </div>
+                    </fieldset>
+                </div>
+
+                <div class="container mt-5">
+                    <p>
+                        Do you consider yourself economically challenged?
+                    </p>
+                    <select id="inputState" class="form-select">
+                      <option selected>Please Select...</option>
+                      <option>Please Select</option>
+                      <option>Yes</option>
+                      <option>No</option>
+                    </select>
+                </div>
+
+                <div class="container mt-5">
+                    <p>
+                       What is your housing situation
+                    </p>
+                    <select id="inputState" class="form-select">
+                      <option selected>Please Select...</option>
+                      <option>Please Select</option>
+                      <option>Own</option>
+                      <option>Rent</option>
+                      <option>Public Housing/Section 8</option>
+                      <option>Temporary Housing</option>
+                      <option>Transitional Housing</option>
+                      <option>Living with family/friend</option>
+                      <option>Shelter</option>
+                      <option>Veteran Housing</option>
+                      <option>Other</option>
+                    </select>
+                    <p>   
+                        Temporary Housing – living in emergency shelters, motels, hotels,
+                         trailer parks, cars, parks, public spaces, or abandoned buildings,
+                          and those sharing the housing of other persons due to loss of housing,
+                           economic hardship, or a similar reason. Transitional Housing – a project 
+                           designed to provide housing and appropriate supportive services to homeless 
+                           persons to facilitate movement to independent living. 
+                        The housing is short-term, typically less than 24 months.
+                    </p>
+                </div>
+
+
+                <div class="container mt-5">
+                    <p>
+                       Highest Level of education completed
+                    </p>
+                    <select id="inputState" class="form-select">
+                      <option selected>Please Select...</option>
+                      <option>Please Select</option>
+                      <option>8th grade or below</option>
+                      <option>9th Grade</option>
+                      <option>10th Grade</option>
+                      <option>11th Grade</option>
+                      <option>12th grade, no diploma</option>
+                      <option>High School diploma</option>
+                      <option>GED</option>
+                      <option>Vocational Training</option>
+                      <option>Some College, no Degree</option>
+                      <option>Associate's Degree</option>
+                      <option>Bachelor's Degree</option>
+                      <option>Master's Degree</option>
+                      <option>PH.D.</option>
+                    </select>
+                </div>
+
+                <div class="container mt-5">
+                    <p>
+                        Are you currently enrolled in a college or university 
+                        and/or pursuing a degree?
+                    </p>
+                    <select id="inputState" class="form-select">
+                      <option selected>Please Select...</option>
+                      <option>Please Select</option>
+                      <option>Yes</option>
+                      <option>No</option>
+                    </select>
+                </div>
+
+                <div class="container mt-5">
+                    <p>
+                        Do you have a laptop or desktop computer?
+                    </p>
+                    <select id="inputState" class="form-select">
+                      <option selected>Please Select...</option>
+                      <option>Please Select</option>
+                      <option>Yes</option>
+                      <option>No</option>
+                    </select>
+                    <p>
+                        access to a computer is required to participate in the program. If you do not have one, Mark No, and someone from our team will 
+                        termine need and possibly connect you with resources if you qualify.
+                    </p>
+                </div>
+
+                <div class="container mt-5">
+                    <p>
+                        Do you have consistend access to stable internet?
+                    </p>
+                    <select id="inputState" class="form-select">
+                      <option>Please Select...</option>
+                      <option>Please Select</option>
+                      <option>Yes</option>
+                      <option>No</option>
+                    </select>
+                    <p>
+                      Coursework and all class meetings are held virtually, 
+                      and you will need Internet access to participate.
+                    </p>
+                </div>
+
+                <div class="container mt-5">
+                    <h5>How do you rate your computer skills</h5>
+                    <p>
+                        Novice
+                        <span>
+                            <input type="radio">
+                            1
+                        </span>
+                        <span>
+                            <input type="radio">
+                            2
+                        </span>
+                        <span>
+                            <input type="radio">
+                            3
+                        </span>
+                        <span>
+                            <input type="radio">
+                            4
+                        </span>
+                        <span>
+                            <input type="radio">
+                            5
+                        </span>
+                        Expert
+                    </p>
+                    <p>
+                        1)  I can access email 
+                        2) Basic: I can access common applications, such as Word Documents
+                         3) Intermediate: I use computers every day and consider myself tech-savvy 
+                         4) Advanced: I am well advanced in using computers 
+                         5) Expert: I am well established in using professional 
+                        tech skills such as software development or supporting business computers
+                    </p>
+                </div>
+
+                <div class="container mt-5">
+                    <p>
+                        Are you willing to commit 10-20 hours of work to the program?
+                    </p>
+                    <select id="inputState" class="form-select">
+                      <option selected>Please Select...</option>
+                      <option>Please Select</option>
+                      <option>Yes</option>
+                      <option>No</option>
+                    </select>
+                    <i>
+                        Code Louisville is an accelerated program that requires a 
+                        considerable time investment each week for successful completion.
+                    </i>
+                </div>
+
+                <div class="container mt-5">
+                    <p>
+                        <b>What are you interested in learning?</b>
+                    </p>
+                    <p>
+                        <input type="checkbox">
+                        <label>Web Development (visual and interactive elements of a website)</label>
+                    </p>
+                    <p>
+                        <input type="checkbox">
+                        <label>Application Development (languages like C#, Python, Java, Node, SQL)</label>
+                    </p>
+                    <p>
+                        <input type="checkbox">
+                        <label>Data Analytics</label>
+                    </p>
+                    <p>
+                        <input type="checkbox">
+                        <label>User Experience (UX) Design</label>
+                    </p>
+                    <p>
+                        <input type="checkbox">
+                        <label>Cloud Infrastructure (such as Amazon Web Services)</label>
+                    </p>
+                    <p>
+                        <input type="checkbox">
+                        <label>Software Testing/QA</label>
+                    </p>
+                    <p>
+                        <input type="checkbox">
+                        <label>Salesforce Administration</label>
+                    </p>
+                    <p>
+                        <input type="checkbox">
+                        <label>Project Management</label>
+                    </p>
+                    <p>
+                        <input type="checkbox">
+                        <label>Cybersecurity</label>
+                    </p>
+                    <p>
+                        <input type="checkbox">
+                        <label>I'm not sure</label>
+                    </p>
+                    <i>
+                        Please note, this is not a selection of what class you want, just so we can
+                         understand what our participants are interested in learning.
+                    </i>
+                </div>
+
+                <div class="container mt-5">
+                    <p>
+                        <b>I agree, understand and/or acknowledge that:</b>
+
+                    </p>
+                    <p>
+                        <input type="checkbox">
+                        <label><b>I agree</b></label>
+                    </p>
+
+                    <p>
+                        The submitted information above is true and complete to the best of my knowledge. The submitted
+                         information will be entered into the Brightfield
+                          database.Brightfield will NOT report my identifying
+                           information, any data reported will be void of name, address, or other identifying 
+                           information. Brightfield has my permission to use the above 
+                           information for follow-up (enrollment) activities related to the program. Neither 
+                           Brightfield Tech Academy discriminate on the basis or race, color, national
+                            origin, sex, religion, age or disability in employment or provision of services.
+                    </p>
+                </div>
+
+                <button type="submit" class="btn btn-lg btn-primary p-3 mt-5 text-center">
+                    Submit
+                </button>
+
+              </form>
+
+        </div>
+    </div>
+
+    <footer class="mt-5 bg-dark text-white">
+        <div class="container-fluid mt-5">
+            <div class="row">
+                <div class="col col-sm-3">
+                    <div class="logo pt-4">
+                        <img src="images/logo.png" class="img-fluid">
+                    </div>
+                </div>
+
+                <div class="col col-sm-3">
+                    <p class="p-5">
+                        Brightfield Tech Academy is a program of KentuckianaWorks. It is 
+                        funded by Oliver Mensah for Economic Development.
+                    </p>
+                </div>
+                <div class="col col-sm-3">
+                    <div class="social-media fs-2 p-5">
+                        <i class="bi bi-facebook m-2"></i>
+                        <i class="bi bi-twitter m-2"></i>
+                        <i class="bi bi-linkedin m-2"></i>
+                    </div>
+                </div>
+                <div class="col col-sm-3 p-5">
+                    <p><a href="#">Info</a></p>
+                    <p><a href="#">Hire</a></p>
+                    <p><a href="#">Contact</a></p>
+                    <p><a href="#">Apply</a></p>
+                </div>
+            </div>
+        </div>
+    </footer>
+   
+   
+   
+   
+   
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!--Import jQuery before materialize.js-->
+
+    
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+  </body>
+</html>
+      
