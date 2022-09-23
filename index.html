@@ -12,8 +12,10 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css"> 
 
    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@1,400;1,500&family=Playfair+Display&display=swap" rel="stylesheet">
-
-    <link rel="stylesheet" href="css/custom.css">
+   
+   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    
+   <link rel="stylesheet" href="css/custom.css">
     <title>Brightfield Tech Academy</title>
 </head>
 <body>
@@ -39,10 +41,10 @@
                     <a class="nav-link text-white fs-5" href="hire.html">Hire</a>
                   </li>
                   <li class="nav-item m-2">
-                    <a class="nav-link text-white fs-5" href="#">Mentor</a>
+                    <a class="nav-link text-white fs-5" href="mentor.html">Mentor</a>
                   </li>  
                   <li class="nav-item m-2">
-                    <a class="nav-link text-white fs-5" href="#">Contact</a>
+                    <a class="nav-link text-white fs-5" href="contact.html">Contact</a>
                   </li>
                   <li class="nav-item m-2">
                     <a class="nav-link text-white fs-5" href="#">
@@ -79,24 +81,34 @@
     </section> -->
 
     <!-- our mission -->
-    <div class="missionSection container-fluid">
-        <div class="container missionDiv">
-            <div class="p-2">
-                <div class="mission px-5 py-3 text-center">
-                    <h1>Who We Are</h1>
-                    <p>
+    <div class="container bg-secondary mt-5">
+        <div class="container d-flex text-center" id="myTestimony">
+            <div class="position-relative container" id="testimony">
+                <div class="container bg-light my-5" id="testimonyDiv"
+                data-aos="fade-right"
+                data-aos-easing="linear"
+                data-aos-duration="1500"
+                    
+                >
+                    <h1 class="px-3">Who We Are</h1>
+                    <p class="p-4">
                         Our mission is simple - to provide quality training and support to help residents 
                         of Louisville enter software development careers at no charge. 
                     </p>
                 </div>
-            </div>  
-            <div class="pb-3">
+            </div>
+    
+            <div class="container my-3"
+                data-aos="fade-down"
+                data-aos-easing="linear"
+                data-aos-duration="1500"
+            >
                 <img src="images/img2.jpg" alt="" class="img-fluid">
             </div>
-            
         </div>
     </div>
 
+       
     <!-- our graduate -->
     <section class="container-fluid graduates">
         <div class="mt-5 container">
@@ -137,75 +149,105 @@
         </div>
     </section>
 
-    <div class="session m-4">
-        <div class="learnSection container-fluid">
-            <div class="mt-4 container learnDiv">
-                    <div class="learnImg">
-                        <img src="images/img3.jpg" alt="" class="img-fluid mt-3">
+    <div class="session" style="background-color:whitesmoke;">
+        <!-- Learn -->
+        <div class="container mt-5">
+            <div class="container d-flex text-center" id="myTestimony">
+                <div class="position-relative container" id="testimony">
+                    <div class="container bg-light my-5" id="testimonyDiv"
+                    data-aos="fade-right"
+                    data-aos-easing="linear"
+                    data-aos-duration="1500"
+                        
+                    >
+                        <h1>Learn</h1>
+                        <p>
+                            Code Louisville offers a variety of pathways including web and
+                            software development, data analytics, user experience design,
+                            and more. We also help our students find jobs after 
+                            they graduate!
+                        </p>
+                        <p>
+                            <button class="btn btn-lg btn-danger p-3 text-center" type="button">Learn More</button>
+                        </p>
                     </div>
-                    <div class="p-2">
-                        <div class="learn px-5 py-4 text-start mb-3 container">
-                            <h1>Learn</h1>
-                            <p>
-                                Code Louisville offers a variety of pathways including web and
-                                 software development, data analytics, user experience design,
-                                 and more. We also help our students find jobs after 
-                                 they graduate!
-                            </p>
-                            <p>
-                                <button class="btn btn-lg btn-danger p-3 text-center" type="button">Learn More</button>
-                            </p>
-                        </div>
-                    </div>
+                </div>
+        
+                <div class="container my-3"
+                    data-aos="fade-down"
+                    data-aos-easing="linear"
+                    data-aos-duration="1500"
+                >
+                    <img src="images/img3.jpg" alt="" class="img-fluid">
+                </div>
             </div>
         </div>
     
-        <!-- Mentor -->
-        <div class="learnSection container-fluid">
-            <div class="mt-4 container learnDiv">
-                    
-                 <div class="p-2">
-                        <div class="learn p-4 text-center mb-3">
-                            <h1>Mentor</h1>
-                            <p>
-                                Mentors are the secret ingredient that makes Code Louisville one of the 
-                                most innovative and successful programs of its kind in the country. 
-                            </p>
-                             <p>
-                                Are you a software developer who wants to coach and 
-                                mentor future developers? Join us!
-                            </p>
-                            <p>
-                                <button class="btn btn-lg btn-danger p-3 text-center" type="button">Learn More</button>
-                            </p>
-                        </div>
-                </div> 
-                <div class="learnImg">
-                    <img src="images/img4.jpg" alt="" class="img-fluid mt-3">
-                </div> 
+        <!-- mentor -->
+        <div class="container-fluid mt-5">
+            <div class="container d-flex text-center" id="myTestimony">
+                <div class="position-relative container" id="testimony">
+                    <div class="container bg-light my-5" id="testimonyDiv"
+                        data-aos="fade-right"
+                        data-aos-easing="linear"
+                        data-aos-duration="1500"
+                        
+                    >
+                    <h1>Mentor</h1>
+                    <p>
+                        Mentors are the secret ingredient that makes Code Louisville one of the
+                         most innovative and successful programs of its kind in the country. 
+                    </p>
+                    <p>
+                        Are you a software developer who wants to coach and mentor future 
+                        developers? Join us!
+                    </p>
+                    <p>
+                        <button class="btn btn-lg btn-danger p-3 text-center" type="button">Learn More</button>
+                    </p>
+                    </div>
+                </div>
+        
+                <div class="container my-3"
+                    data-aos="fade-down"
+                    data-aos-easing="linear"
+                    data-aos-duration="1500"
+                >
+                    <img src="images/img4.jpg" alt="" class="img-fluid">
+                </div>
             </div>
         </div>
-    
-        <!-- Hire -->
-        <div class="learnSection container-fluid">
-            <div class="mt-4 container learnDiv">
-                    <div class="learnImg">
-                        <img src="images/img5.jpg" alt="" class="img-fluid mt-3">
-                    </div>
-                    <div class="p-2">
-                        <div class="learn p-4 text-center mb-3">
-                            <h1>Hire</h1>
-                            <p>
+
+         <!-- Hire -->
+        <div class="container-fluid mt-5">
+            <div class="container d-flex text-center" id="myTestimony">
+                <div class="position-relative container" id="testimony">
+                    <div class="container bg-light my-5" id="testimonyDiv"
+                        data-aos="fade-right"
+                        data-aos-easing="linear"
+                        data-aos-duration="1500"
+                        
+                    >
+                        <h1>Hire</h1>
+                        <p>
                                 Having trouble finding qualified candidates for your technology roles?
-                            </p>
-                            <p>
-                              We’ve helped match hundreds of employers across the region with our talented, up-and-coming Code Louisville graduates. 
-                            </p>
-                            <p>
-                                <button class="btn btn-lg btn-danger p-3 text-center" type="button">Learn More</button>
-                            </p>
-                        </div>
-                    </div>  
+                        </p>
+                        <p>
+                            We’ve helped match hundreds of employers across the region with our talented, up-and-coming Code Louisville graduates. 
+                        </p>
+                        <p>
+                            <button class="btn btn-lg btn-danger p-3 text-center" type="button">Learn More</button>
+                        </p>
+                    </div>
+                </div>
+        
+                <div class="container my-3"
+                    data-aos="fade-down"
+                    data-aos-easing="linear"
+                    data-aos-duration="1500"
+                >
+                    <img src="images/img5.jpg" alt="" class="img-fluid">
+                </div>
             </div>
         </div>
     </div>
@@ -248,5 +290,10 @@
    
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
     <script src="src/script.js"></script>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 </html>
