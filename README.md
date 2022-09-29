@@ -8,11 +8,11 @@ An Html and css website design for Brightfield Tech Academy
 2 Bootstrap
 
 ## Screenshots
-![](https://github.com/Richmond-Andoh/Farmasyst/blob/main/images/farmasyst.PNG)
+![]
 
 ## Demo
 
-You can access it live on  https://richmond-andoh.github.io/Farmasyst
+You can access it live on  [https://richmond-andoh.github.io/Farmasyst](https://richmond-andoh.github.io/BTA-Webpage/)
 
 
 ## Run Locally
@@ -20,7 +20,7 @@ You can access it live on  https://richmond-andoh.github.io/Farmasyst
 Clone the project
 
 ```bash
-  git clone https://github.com/Richmond-Andoh/Farmasyst.git
+  git clone https://github.com/Richmond-Andoh/BTA-Webpage.git
 ```
 
 Go to the project directory
