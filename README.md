@@ -12,7 +12,7 @@ An Html and css website design for Brightfield Tech Academy
 
 ## Demo
 
-You can access it live on  [https://richmond-andoh.github.io/Farmasyst](https://richmond-andoh.github.io/BTA-Webpage/)
+You can access it live on  (https://richmond-andoh.github.io/BTA-Webpage/)
 
 
 ## Run Locally
