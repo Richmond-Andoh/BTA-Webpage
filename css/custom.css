@@ -1,11 +1,10 @@
-body{
+body {
     font-family: 'Lora', serif;
 }
-.session{
+
+.session {
     background-color: gainsboro;
 }
-
-
 
 #testimony {
     position: relative;
@@ -16,23 +15,21 @@ body{
 #testimonyDiv {
     position: absolute;
     top: 10%;
-    left: 13%;   
+    left: 13%;
 }
 
 @media(max-width: 880px) {
-    #myTestimony{
+    #myTestimony {
         display: flex;
         flex-direction: column-reverse;
-        
     }
     #testimony {
         position: relative;
         z-index: 1;
     }
-    
     #testimonyDiv {
         position: absolute;
-        top: -15%;
-        left: -1%;   
+        top: -20%;
+        left: -1%;
     }
 }
