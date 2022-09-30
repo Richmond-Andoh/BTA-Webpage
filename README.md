@@ -8,7 +8,7 @@ An Html and css website design for Brightfield Tech Academy
 2 Bootstrap
 
 ## Screenshots
-![]
+![](images/shot1.PNG)
 
 ## Demo
 
