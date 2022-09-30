@@ -9,6 +9,7 @@ An Html and css website design for Brightfield Tech Academy
 
 ## Screenshots
 ![](images/shot1.PNG)
+![](images/shot2.PNG)
 
 ## Demo
 
